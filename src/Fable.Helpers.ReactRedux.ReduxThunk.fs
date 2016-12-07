@@ -8,5 +8,5 @@ type ThunkDU =
     | Thunk of (ReactRedux.Dispatcher -> Fable.Import.JS.Promise<unit>)
     interface ReactRedux.IDispatchable
 
-let inline asThunk (fn : (ReactRedux.Dispatcher -> Fable.Import.JS.Promise<unit>)) : ReactRedux.IDispatchable =
+let asThunk (fn : (ReactRedux.Dispatcher -> Fable.Import.JS.Promise<unit>)) : ReactRedux.IDispatchable =
     ThunkDU.Thunk fn |> unbox<ReactRedux.IDispatchable>

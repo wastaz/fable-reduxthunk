@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Fable imports for Redux-Thunk",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build"
   },
   "keywords": [
     "F#",
@@ -17,5 +17,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/wastaz/fable-import-reduxthunk"
+  },
+  "devDependencies": {
+    "fable-compiler": "0.7.22",
+    "fable-core":  "0.7.15",
+    "fs-extra": "^1.0.0",
+    "fable-import-redux": "0.1.2",
+    "fable-import-reactredux-opinionated": "0.1.0"
   }
 }
