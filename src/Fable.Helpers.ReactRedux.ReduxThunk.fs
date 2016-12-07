@@ -1,5 +1,4 @@
-﻿[<Fable.Core.Erase>]
-module Fable.Helpers.ReduxThunk
+﻿module Fable.Helpers.ReduxThunk
 
 open Fable.Import
 
