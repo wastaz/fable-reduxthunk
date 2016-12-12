@@ -1,7 +1,7 @@
 {
-  "name": "fable-import-reduxthunk",
-  "version": "0.1.0",
-  "description": "Fable imports for Redux-Thunk",
+  "name": "fable-reduxthunk",
+  "version": "0.1.2",
+  "description": "Fable imports and helpers for Redux-Thunk",
   "scripts": {
     "build": "node build"
   },
@@ -16,13 +16,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wastaz/fable-import-reduxthunk"
+    "url": "https://github.com/wastaz/fable-reduxthunk"
   },
   "devDependencies": {
     "fable-compiler": "0.7.22",
     "fable-core":  "0.7.15",
     "fs-extra": "^1.0.0",
-    "fable-import-redux": "0.1.2",
-    "fable-import-reactredux-opinionated": "0.1.0"
+    "fable-redux": "0.2.0",
+    "fable-reactredux": "0.2.0"
   }
 }

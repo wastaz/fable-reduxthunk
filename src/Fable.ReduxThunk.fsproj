@@ -7,12 +7,12 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0a9722cb-338f-44b4-8b08-71e8d0dee3c2</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Fable.Import.ReduxThunk</RootNamespace>
-    <AssemblyName>Fable.Import.ReduxThunk</AssemblyName>
+    <RootNamespace>Fable.ReduxThunk</RootNamespace>
+    <AssemblyName>Fable.ReduxThunk</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Name>Fable.Import.ReduxThunk</Name>
+    <Name>Fable.ReduxThunk</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Debug\Fable.Import.ReduxThunk.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Fable.ReduxThunk.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -31,17 +31,17 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Release\Fable.Import.ReduxThunk.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Fable.ReduxThunk.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Fable.Core">
       <HintPath>..\node_modules\fable-core\Fable.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Fable.Import.ReactRedux.Opinionated">
-      <HintPath>..\node_modules\fable-import-reactredux-opinionated\Fable.Import.ReactRedux.Opinionated.dll</HintPath>
+    <Reference Include="Fable.ReactRedux">
+      <HintPath>..\node_modules\fable-reactredux\Fable.ReactRedux.dll</HintPath>
     </Reference>
-    <Reference Include="Fable.Import.Redux">
-      <HintPath>..\node_modules\fable-import-redux\Fable.Import.Redux.dll</HintPath>
+    <Reference Include="Fable.Redux">
+      <HintPath>..\node_modules\fable-redux\Fable.Redux.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
